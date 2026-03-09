@@ -41,6 +41,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/s8iID8t"  ><a href="//imgur.com/a/s8iID8t">codepath project 2</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 <img src='Screen Recording 2026-03-08 204158.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
