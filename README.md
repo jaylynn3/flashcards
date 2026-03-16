@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<video src="https://imgur.com/xXr5H7K.gif"width="700" controls></video>
+<video src="https://i.imgur.com/xXr5H7K.mp4" width="700" controls></video>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgur  
