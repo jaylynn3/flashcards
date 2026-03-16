@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/s8iID8t"  ><a href="[[//imgur.com/a/s8iID8t](https://imgur.com/a/KTvlbP0)](https://imgur.com/gallery/codepath-project-3-flashcards-KTvlbP0#xXr5H7K)">codepath project 2</a></blockquote>
+<video src="https://imgur.com/xXr5H7K.gif"width="700" controls></video>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgur  
