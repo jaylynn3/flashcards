@@ -23,6 +23,9 @@ const App = () => {
   ];
 
   const [currentCard, setCurrentCard] = useState(0);
+  const [history, setHistory] = useState([]);
+  const [guess, setGuess] = useState("");
+  const [feedback, setFeedback] = useState("");
 
   const nextCard = () => {
   let randomIndex = Math.floor(Math.random() * cards.length);
@@ -31,27 +34,58 @@ const App = () => {
     randomIndex = Math.floor(Math.random() * cards.length);
   }
 
+  setHistory([...history, currentCard]);
   setCurrentCard(randomIndex);
   };
 
+  const lastCard = () => {
+    if (history.length === 0) return;
+
+    const last = history[history.length - 1];
+    setHistory(history.slice(0, -1));
+    setCurrentCard(last);
+   };
+
+   const checkGuess = () => {
+          if (guess.toLowerCase() === cards[currentCard].answer.toLowerCase()) {
+            setFeedback("Correct");
+          }
+          else {      
+            setFeedback("Incorrect");
+          }
+        };
+
   return (
     <div className="App">
+      <div class="title">
       <h1>Spanish Flashcards for Beginners</h1>
+      </div>
+
+    <div class="subtext">
       <h2>⋆˚꩜｡ 𐔌՞ ܸ.ˬ.ܸ՞𐦯 Vamos a apprender unos palabras vocabularios en español! ⋆˚꩜｡</h2>
       <h4>Number of Cards: 15</h4>
+      </div>
 
       <Card
         key={currentCard}
         question={cards[currentCard].question}
         answer={cards[currentCard].answer}
       />
-      <button onClick={nextCard}>Next Card</button>
-
+    <div class="buttons">
+      <button onClick={lastCard} disabled={history.length === 0 } class="button">
+        Last Card
+      </button>
+      <button onClick={nextCard} class="button">
+        Next Card
+      </button>
+      </div>
+      <input placeholder="Input a guess!" type="text" value={guess} 
+      onChange={(e) => setGuess(e.target.value)} />
+      <button onClick={checkGuess} class="button">
+        Submit Guess
+      </button>
+      {feedback && <p>{feedback}</p>}
     </div>
-
-
-    
-
   );
 }
 

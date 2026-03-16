@@ -62,3 +62,28 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: transform 0.2s ease;
 }
+
+body{
+  background-image: url("https://i.pinimg.com/736x/ed/77/d3/ed77d383f5bbdc4e8eff2cc38eb6df01.jpg");
+  background-position: center;
+}
+
+.title {
+background-color: white;
+color: black;
+font-size: x-small;
+padding: 15px 25px;
+border-radius: 25px;
+display: inline-block;
+}
+
+.subtext{
+  font-size: smaller ;
+}
+
+.button {
+  margin: 5px;
+  background-color: white;
+  color: black;
+}
+

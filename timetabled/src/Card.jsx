@@ -14,4 +14,7 @@ const Card = ({ question, answer}) => {
     );
 };
 
+
+
+
 export default Card;
