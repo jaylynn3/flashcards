@@ -4,7 +4,7 @@ Submitted by: **Jaylynn Hemmings**
 
 This web app: **Flashcard site to help practice vocabulary words in Spanish!**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/s8iID8t"  ><a href="//imgur.com/a/s8iID8t">codepath project 2</a></blockquote>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/s8iID8t"  ><a href="[//imgur.com/a/s8iID8t](https://imgur.com/a/KTvlbP0)">codepath project 2</a></blockquote>
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgur  
