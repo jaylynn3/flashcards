@@ -87,3 +87,9 @@ display: inline-block;
   color: black;
 }
 
+.button:disabled {
+  background-color: lightgray;
+  color: gray;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
